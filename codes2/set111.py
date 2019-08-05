@@ -1,0 +1,11 @@
+n=int(input())
+t=str(n)
+sum=0
+while(n>0):
+    j=n
+    while(j>0):
+        k=j%10
+        sum+=k 
+        j=j//10
+    n=n//10
+print(sum)
