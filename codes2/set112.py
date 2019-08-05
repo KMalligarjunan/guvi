@@ -1,0 +1,9 @@
+N=int(input())
+b=str(N)
+c=len(b)
+sum=0
+while(N>0):
+    t=N%10
+    sum+=(t**c)
+    N=N//10
+print(sum)
